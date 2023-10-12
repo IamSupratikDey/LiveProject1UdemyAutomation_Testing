@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddCustomerTest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.208">
+  <properties />
+  
+  
+            <testcase name="AddCustomerTest" time="4.447" classname="com.liveproject1.testcases.AddCustomerTest" />
+                <testcase name="AddCustomerTest" time="4.450" classname="com.liveproject1.testcases.AddCustomerTest" />
+                <testcase name="AddCustomerTest" time="4.443" classname="com.liveproject1.testcases.AddCustomerTest" />
+                <testcase name="AddCustomerTest" time="4.403" classname="com.liveproject1.testcases.AddCustomerTest" />
+                <testcase name="AddCustomerTest" time="4.465" classname="com.liveproject1.testcases.AddCustomerTest" />
+      
+</testsuite>

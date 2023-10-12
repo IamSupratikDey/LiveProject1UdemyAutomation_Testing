@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+        <listener class-name="com.liveproject1.listeners.CustomListeners"></listener>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="LoginTest">
+                        <classes>
+                                 <class name="com.liveproject1.testcases.LoginTest">
+                                      <methods>
+                                          <include name="LoginTest"/>
+                                      </methods>
+                                 </class>
+                        </classes>
+
+    </test>
+
+    <test verbose="2" preserve-order="true" name="AddCustomerTest">
+
+                        <classes>
+                            <class name="com.liveproject1.testcases.AddCustomerTest">
+                                <methods>
+                                    <include name="AddCustomerTest"/>
+                                </methods>
+                            </class>
+                        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true" name="OpenAccountTest">
+                        <classes>
+                            <class name="com.liveproject1.testcases.OpenAccountTest">
+                                <methods>
+                                    <include name="OpenAccountTest"/>
+                                </methods>
+                            </class>
+                        </classes>
+    </test>
+
+</suite>
